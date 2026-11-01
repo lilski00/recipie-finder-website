@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Recipe Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#">🍃 Healthy Recipe Finder</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#recipes">Recipes</a>
+    </nav>
+    <a class="nav-button" href="#recipes">Browse recipes</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <h1>Healthy meals, zero fuss</h1>
+      <p>Discover easy, whole-food recipes that you can cook tonight — no processed junk, no guesswork.</p>
+      <a class="button" href="#recipes">Start exploring</a>
+      <img class="hero-image"
+        src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80"
+        alt="Fresh healthy meal">
+    </section>
+
+    <section class="benefits" id="about">
+      <h2>What you'll get</h2>
+      <div class="benefit-grid">
+        <article>
+          <span>🥕</span>
+          <h3>Whole-food recipes</h3>
+          <p>Each dish uses everyday, unprocessed ingredients.</p>
+        </article>
+        <article>
+          <span>🌿</span>
+          <h3>Minimum fuss</h3>
+          <p>All recipes are designed to make eating healthy quick and easy.</p>
+        </article>
+        <article>
+          <span>🔎</span>
+          <h3>Search in seconds</h3>
+          <p>Find recipes by name or ingredient.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div>
+        <h2>Built for real life</h2>
+        <p>Cooking shouldn't be complicated. Discover fresh ideas for your everyday meals.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=900&q=80"
+        alt="Preparing fresh ingredients">
+    </section>
+
+    <section class="recipe-section" id="recipes">
+      <h2>Find your next favorite recipe</h2>
+      <p>Search for a meal or ingredient below.</p>
+      <form id="search-form">
+        <input id="search-input" type="search"
+          placeholder="Search recipes or ingredients..."
+          aria-label="Search recipes">
+        <button type="submit">Search</button>
+      </form>
+      <p id="no-results" hidden>No recipes found. Try another search.</p>
+
+      <div class="recipe-grid">
+        <article class="recipe-card place-card">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80" alt="Fresh salad">
+          <div><h3>Fresh Garden Salad</h3><p>Lettuce, tomato, avocado</p></div>
+        </article>
+        <article class="recipe-card place-card">
+          <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80" alt="Pasta dish">
+          <div><h3>Vegetable Pasta</h3><p>Pasta, vegetables, herbs</p></div>
+        </article>
+        <article class="recipe-card place-card">
+          <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80" alt="Healthy vegetable bowl">
+          <div><h3>Healthy Power Bowl</h3><p>Greens, grains, fresh vegetables</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Ready to cook smarter?</h2>
+      <p>Find a recipe and make something delicious today.</p>
+      <a class="button" href="#recipes">Browse recipes</a>
+    </section>
+  </main>
+
+  <footer><p>Healthy Recipe Finder · Made with care.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
